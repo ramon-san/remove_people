@@ -2,11 +2,11 @@
 
 Proof-of-concept for removing unwanted people and objects from images.
 
-![Example 1 of the Remove People notebook results.](assets/example_1_results.png)
-<center style="font-size: 10px;">Example 1 of the Remove People notebook results.</center>
+![Example 1 of the Remove People notebook results.](https://www.ramonorraca.com/images/removepeople/example_1_results.png)
+<p align="center" style="font-size: smaller; margin-bottom: 10px;">Example 1 of the Remove People notebook results.</p>
 
-![Example 2 of the Remove People notebook results.](assets/example_2_results.png)
-<center style="font-size: 10px;">Example 2 of the Remove People notebook results.</center>
+![Example 2 of the Remove People notebook results.](https://www.ramonorraca.com/images/removepeople/example_2_results.png)
+<p align="center" style="font-size: smaller; margin-bottom: 10px;">Example 2 of the Remove People notebook results.</p>
 
 This feature is available in the main photo apps ([Apple](https://x.com/0xashesonchain/status/1800273077164523697) and [Google](https://www.youtube.com/watch?v=tEj5lFJyNTo)), but thought it would be cool to recreate the functionality from scratch using existing over-the-counter AI solutions.
 
