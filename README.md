@@ -1,12 +1,12 @@
 # Remove People
 
-Proof-of-concept for removing unwanted people and objects from images.
+Proof-of-concept for removing unwanted people and objects from images. [You can follow this documentation with a video](https://www.youtube.com/watch?v=P_VUTihC4Dg)!
 
 ![Example 1 of the Remove People notebook results.](https://www.ramonorraca.com/images/removepeople/example_1_results.png)
-<p align="center" style="font-size: smaller; margin-bottom: 10px;">Example 1 of the Remove People notebook results.</p>
+<p align="center" style="font-size: 8px; margin-bottom: 10px;">Example 1 of the Remove People notebook results.</p>
 
 ![Example 2 of the Remove People notebook results.](https://www.ramonorraca.com/images/removepeople/example_2_results.png)
-<p align="center" style="font-size: smaller; margin-bottom: 10px;">Example 2 of the Remove People notebook results.</p>
+<p align="center" style="font-size: 8px; margin-bottom: 10px;">Example 2 of the Remove People notebook results.</p>
 
 This feature is available in the main photo apps ([Apple](https://x.com/0xashesonchain/status/1800273077164523697) and [Google](https://www.youtube.com/watch?v=tEj5lFJyNTo)), but thought it would be cool to recreate the functionality from scratch using existing over-the-counter AI solutions.
 
@@ -65,3 +65,10 @@ This project includes two Jupyter notebooks.
 4. Execute the cells, adding your own images.
 
 To add images, place them in the `images/original` folder and set the `image_name` variable in the first code cell of the notebook.
+
+## Additional Information
+
+There are a couple of things that could be improved in this implementation:
+- It would be cool to automatically detect the protagonists of the image to avoid this being a manual process.
+- The results when an image contains shadows are weird because the image editing model adds objects over the shadows. To improve this, the model for object detection could be improved to detect shadows and remove them.
+- As of this writing, the OpenAI API for image editing requires a 1:1 ratio. If you change to a different provider you might avoid this limitation. If your image has a different dimension the code will automatically resize.

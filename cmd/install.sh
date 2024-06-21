@@ -7,7 +7,7 @@ pip install ipykernel
 pip install numpy==1.24.1
 
 # Install all other basic required packages for the project.
-pip install matplotlib openai python-dotenv torch torchvision
+pip install matplotlib openai python-dotenv torch torchvision requests
 
 # Register the current environment as a Jupyter kernel
 python -m ipykernel install --user --name=removepeople
